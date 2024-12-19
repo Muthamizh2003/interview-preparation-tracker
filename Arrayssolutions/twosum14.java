@@ -32,6 +32,10 @@ Constraints:
 -109 <= target <= 109
 Only one valid answer exists.
  */
+
+import java.util.HashMap;
+import java.util.Map;
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer,Integer> map=new HashMap<>();

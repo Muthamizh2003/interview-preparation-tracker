@@ -46,7 +46,7 @@ class Solution {
 }
 
 //2.
-class Solution {
+class Solution2 {
     public int findNumbers(int[] nums) {
         int count = 0;
         int total = 0;
