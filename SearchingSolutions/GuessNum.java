@@ -50,7 +50,7 @@ public class GuessNum {
  * int guess(int num);
  */
 
- public class Solution extends GuessGame {
+ public class Guess extends GuessGame {
     public int guessNumber(int n) {
     int start=1;
     int stop=n;
