@@ -1,4 +1,4 @@
-package StringSoln.Twoptrsoln;
+package AssignmentSolutions.StringSoln.SlidingWindow;
 
 import java.util.HashSet;
 import java.util.Set;

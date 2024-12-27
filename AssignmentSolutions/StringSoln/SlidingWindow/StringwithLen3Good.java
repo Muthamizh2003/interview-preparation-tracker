@@ -1,4 +1,4 @@
-package StringSoln.Twoptrsoln;
+package AssignmentSolutions.StringSoln.SlidingWindow;
 /*
 1876. Substrings of Size Three with Distinct Characters
 Solved

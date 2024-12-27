@@ -1,4 +1,4 @@
-package StringSoln;
+package AssignmentSolutions.StringSoln;
 /*
 1108. Defanging an IP Address
 Solved

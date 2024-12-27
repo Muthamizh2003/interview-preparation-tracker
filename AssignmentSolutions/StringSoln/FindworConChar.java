@@ -1,4 +1,4 @@
-package StringSoln;
+package AssignmentSolutions.StringSoln;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,4 +56,3 @@ class Solution {
         return arr;
     }
 }
-int n=Integer.to

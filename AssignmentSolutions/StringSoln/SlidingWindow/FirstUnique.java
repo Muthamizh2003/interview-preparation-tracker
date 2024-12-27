@@ -1,4 +1,4 @@
-package StringSoln.Twoptrsoln;
+package AssignmentSolutions.StringSoln.SlidingWindow;
 /*
 387. First Unique Character in a String
 Solved

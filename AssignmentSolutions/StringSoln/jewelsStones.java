@@ -1,4 +1,4 @@
-package StringSoln;
+package AssignmentSolutions.StringSoln;
 
 /*
 771. Jewels and Stones

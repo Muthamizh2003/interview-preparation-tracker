@@ -1,4 +1,4 @@
-package StringSoln.Twoptrsoln;
+package AssignmentSolutions.StringSoln.SlidingWindow;
 /*
 242. Valid Anagram
 Solved

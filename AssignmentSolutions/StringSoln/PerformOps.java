@@ -1,4 +1,4 @@
-package StringSoln;
+package AssignmentSolutions.StringSoln;
 /*
 2011. Final Value of Variable After Performing Operations
 Solved
