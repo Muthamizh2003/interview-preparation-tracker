@@ -1,5 +1,25 @@
 public class Pow {
-    
+    public static void main(String[] args) {
+        int n=2;
+        int x=5;
+        System.out.println(myPow(n,x));
+            }
+    public static double myPow(double x, int n) {
+        if (x == 0) return 0;
+        if (n == 0) return 1;
+        
+        System.out.println(n);
+        long num = Math.abs((long)n);
+        double res = myPow(x, (int)(num / 2));
+
+        if (num % 2 == 0) {
+            res = res * res;
+            System.out.println(res);
+        } else {
+            res = x * res * res;
+        }
+        return n > 0 ? res : 1 / res;
+    } 
 }
 //O(log n)
 //O(log n) if int means overflow since 2^-31 cannot store 32 bit int-> long 
@@ -18,6 +38,7 @@ class Solution1 {
         }
         return n > 0 ? res : 1 / res;
     }
+
 }
 //O(log n)
 //O(1)
