@@ -55,7 +55,7 @@
 53. [ ] [Basic Calculator](https://leetcode.com/problems/basic-calculator/)
 54. [ ] [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)
 55. [ ] [Maximize Number of Nice Divisors](https://leetcode.com/problems/maximize-number-of-nice-divisors/)
-56. [ ] [N Queens](https://leetcode.com/problems/n-queens/)
+56. [x] [N Queens](https://leetcode.com/problems/n-queens/)
 57. [ ] [N Queens II](https://leetcode.com/problems/n-queens-ii/)
 58. [ ] [Word break II](https://leetcode.com/problems/word-break-ii/)
 59. [ ] [Unique paths III](https://leetcode.com/problems/unique-paths-iii/)
@@ -66,7 +66,7 @@
 64. [ ] [The Knight's tour](https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/)
 65. [ ] [Maximum number possible by doing at-most K swaps](https://www.geeksforgeeks.org/find-maximum-number-possible-by-doing-at-most-k-swaps/)
 66. [ ] [Concatenated Words](https://leetcode.com/problems/concatenated-words/)
-67. [ ] [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
-68. [ ] [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+67. [x] [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+68. [x] [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 69. [x] Permutation of a string. Eg Input: "abc". Output: [cba, bca, bac, cab, acb, abc]
 70. [x] [Number of Islands](https://leetcode.com/problems/number-of-islands/) - (Do it in recursion and we'll do it again in graphs)
