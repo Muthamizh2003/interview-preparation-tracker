@@ -1,4 +1,4 @@
-package recursion;
+
 
 public class PermutationOfAString {
     public static void main(String[] args) {
