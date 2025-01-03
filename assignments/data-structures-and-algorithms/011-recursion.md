@@ -56,7 +56,7 @@
 54. [ ] [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)
 55. [ ] [Maximize Number of Nice Divisors](https://leetcode.com/problems/maximize-number-of-nice-divisors/)
 56. [x] [N Queens](https://leetcode.com/problems/n-queens/)
-57. [ ] [N Queens II](https://leetcode.com/problems/n-queens-ii/)
+57. [x] [N Queens II](https://leetcode.com/problems/n-queens-ii/)
 58. [ ] [Word break II](https://leetcode.com/problems/word-break-ii/)
 59. [ ] [Unique paths III](https://leetcode.com/problems/unique-paths-iii/)
 60. [ ] [Find shortest safe route in a path with landmines](https://www.geeksforgeeks.org/find-shortest-safe-route-in-a-path-with-landmines/)
