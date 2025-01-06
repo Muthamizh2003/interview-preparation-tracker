@@ -75,7 +75,7 @@ class Solution {
         {
             for(int i=st;i<nums.length;i++)
             {
-                if(i!=st&&nums[i]==nums[i-1])
+                if(nums[i]==nums[i-1]&&i!=st)
                     continue;
                 temp.add(nums[i]);
                 backtrack(k,n,i+1,res,temp,nums);

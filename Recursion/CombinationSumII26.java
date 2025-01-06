@@ -44,11 +44,16 @@ Constraints:
 1 <= candidates[i] <= 50
 1 <= target <= 30
  */
-public class CombinationSumII26 {
-    
-}
-class Solution {
-    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+
+class CombinationSumII26  {
+    public static void main(String[] args) {
+        List<List<Integer>> res=new ArrayList<>();
+        int[] cad={10,1,2,7,6,1,5};
+        int tar=8;
+        res=combinationSum2(cad,tar);
+        System.out.println(res);
+    }
+    public static List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
         List<List<Integer>> res=new ArrayList<>();
         int n=candidates.length;
@@ -64,6 +69,7 @@ class Solution {
         }
         for(int i=start;i<n;i++)
         {
+            
             if(i>start&&cad[i]==cad[i-1])continue;
             if(cad[i]>target)break;
             arr.add(cad[i]);
