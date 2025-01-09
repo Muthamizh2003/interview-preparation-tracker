@@ -89,3 +89,55 @@ class Solution {
         return true;
     }
 }
+
+class Solution {
+    public List<List<String>> solveNQueens(int n) {
+        List<List<String>> res=new ArrayList<>();
+        char[][] board=new char[n][n];
+        for(int i=0;i<n;i++)
+        {
+            Arrays.fill(board[i],'.');
+        }  
+        Set<Integer> col=new HashSet<>();
+        Set<Integer> diagl=new HashSet<>();
+        Set<Integer> diagr=new HashSet<>();
+        backtrack(board,0,n,res,col,diagl,diagr);
+        return res; 
+    }
+    private static void backtrack(char[][] board,int r,int n,List<List<String>> res,Set<Integer> col,Set<Integer> dl,Set<Integer> dr)
+    {
+        if(r==n)
+        {
+            res.add(construct(board));
+            return;
+        }
+        else
+        {
+            for(int c=0;c<n;c++)
+            {
+                if(col.contains(c)||dl.contains(r-c)||dr.contains(r+c))
+                {
+                    continue;
+                }
+                board[r][c]='Q';
+                col.add(c);
+                dl.add(r-c);
+                dr.add(r+c);
+                backtrack(board,r+1,n,res,col,dl,dr);
+                board[r][c]='.';
+                col.remove(c);
+                dl.remove(r-c);
+                dr.remove(r+c);
+            }
+        }
+    }
+    private static List<String> construct(char[][] board)
+    {
+        List<String> b=new ArrayList<>();
+        for(char[] bb:board)
+        {
+            b.add(new String(bb));
+        }
+        return b;
+    }
+}

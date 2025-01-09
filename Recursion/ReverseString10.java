@@ -4,7 +4,8 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class ReverseString10 {
-        public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
             Scanner sc=new Scanner(System.in);
             int n=sc.nextInt();
             char[] arr=new char[n]; 
@@ -17,8 +18,8 @@ public class ReverseString10 {
         }
         public static void reverseString(char[] s) {
             reverse(s,0,s.length-1);
-                    }
-                    private static void reverse(char[] str,int l,int h)
+        }
+        private static void reverse(char[] str,int l,int h)
         {
             if(l>=h)
                 return;
