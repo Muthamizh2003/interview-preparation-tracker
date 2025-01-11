@@ -1,4 +1,4 @@
-package Recursion;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ Permutation of a string. Eg Input: "abc". Output: [cba, bca, bac, cab, acb, abc]
 
 import java.util.Scanner;
 //using swap
-class Permutation69
+class Permtation69
 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -17,6 +17,7 @@ class Permutation69
         List<String> perm=new ArrayList<>();
         permutate(s,0,s.length(),perm);
         System.out.println(perm);
+        sc.close();
     }
     private static void permutate(String s,int st,int n,List<String> res)
     {
