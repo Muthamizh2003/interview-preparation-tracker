@@ -50,8 +50,8 @@
 
 ### Do It After Recursion
 
-01. [ ] [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)
-02. [ ] [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)
-03. [ ] [Sliding Subarray Beauty](https://leetcode.com/problems/sliding-subarray-beauty/)
-04. [ ] [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
-05. [ ] [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
+01. [x] [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)
+02. [x] [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)
+03. [x] [Sliding Subarray Beauty](https://leetcode.com/problems/sliding-subarray-beauty/)
+04. [x] [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+05. [x] [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
