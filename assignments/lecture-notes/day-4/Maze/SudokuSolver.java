@@ -31,6 +31,11 @@ public class SudokuSolver {
     }
 
     public static boolean solve(int[][] board, int r, int c) {
+        // Reset the column to move to the next row
+        if (c == 9) {
+            r++;
+            c = 0;
+        }
         int rowStart = r;
         int colStart = c;
         boolean isSolved = true;
@@ -48,6 +53,9 @@ public class SudokuSolver {
             if (emptySpace) {
                 break;
             }
+            // Since we've initialized colStart outside this loop we need to
+            // reset it to 0 when we finish iterating a single row
+            colStart = 0;
         }
 
         if (isSolved) {
@@ -58,7 +66,9 @@ public class SudokuSolver {
         for (int number = 1; number <= 9; number++) {
             if (isSafe(board, rowStart, colStart, number)) {
                 board[rowStart][colStart] = number;
-                if (solve(board, r, c)) {
+                // passing the current position of row and column
+                // instead of starting from start
+                if (solve(board, rowStart, colStart)) {
                     return true;
                 } else {
                     board[rowStart][colStart] = 0;
